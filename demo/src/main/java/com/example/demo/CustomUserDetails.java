@@ -18,7 +18,7 @@ public class CustomUserDetails implements UserDetails {
         // Implementa la lógica para obtener las autoridades del usuario si es necesario
         return null;
     }
-
+// comentario de prueba
     @Override
     public String getPassword() {
         return usuario.getPassword();
